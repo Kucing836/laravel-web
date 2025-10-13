@@ -42,7 +42,13 @@ class QuestionController extends Controller
         $data['email'] = $request -> email;
         $data['pertanyaan'] = $request -> pertanyaan;
 
-        return view ('home-question-respon', $data);
+        //return view ('home-question-respon', $data);
+
+        //return redirect()->away('https://pcr.ac.id/');
+
+	    //return redirect()->route('home');
+
+        return redirect()->route('home')->with('info', 'Selamat, Kamu Lulus!');
     }
 
     /**
