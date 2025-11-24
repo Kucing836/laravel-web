@@ -68,6 +68,6 @@ class PelangganController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        //hahaha
     }
 }
