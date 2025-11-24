@@ -58,8 +58,7 @@
                                 @foreach ($dataPelanggan as $item)
                                     <tr>
                                         {{-- Nomor urut --}}
-                                        <td>{{ $loop->iteration }}</td>
-
+                                        {{-- <td>{{ $loop->iteration }}</td> --}}
                                         <td>{{ $item->first_name }}</td>
                                         <td>{{ $item->last_name }}</td>
                                         <td>{{ $item->birthday }}</td>
